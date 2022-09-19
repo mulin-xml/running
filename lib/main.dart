@@ -35,7 +35,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final _nameList = ['张晓媚', '翁金祖', '张勋', '陈蒋睿', '崔浩', '徐沐霖', '王宇成', '杨敬', '夏玉娇', '蔡菀頔'];
   final _numList = List.generate(10, (index) => index);
-  final _stepList = List.generate(10, (index) => Random().nextInt(20000) + 10000);
+  final _stepList = List.generate(10, (index) => Random().nextInt(5000) + 10000);
 
   @override
   Widget build(BuildContext context) {
